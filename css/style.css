@@ -1,14 +1,22 @@
+.parallax {
+    
+    /* The image used */
+    background-image: url("../img/pexels-asad-photo-maldives-3601463.jpg");
+  
+    /* Full height */
+    height: 505px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 h1, h2, h3, h4 {
     font-family: 'Lato', sans-serif;
 }
 
 p {
     font-family: 'Nunito', sans-serif;
-}
-
-.jumbotron {
-    margin: 0;
-    background: url("../img/pexels-asad-photo-maldives-3601463.jpg") center center no-repeat;
-    background-size: cover;
-    height: 500px;
 }
